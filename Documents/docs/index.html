@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="sitestyles.css">
+    <script src="sitejs.js"></script>
+    <!--
+    Emmet shortcuts:
+    child: >
+    sibling: +
+    climb: ^
+    parenthases work
+    copying (multiplying): *
+    numbering: $*
+    attributes: [name=value]
+    content: {}
+    -->
+</head>
+
+<body>
+    <h2>Eli Klein</h2>
+    <h1>Personal Website</h1>
+    <div id="main">
+        <ul id="navbar">
+            <!-- L is for link... I think... I forgot and didn't write it down earlier -->
+            <li id="homeL" class="nav selected"><button onclick="tabOpen('home')">Cover/Home</button></li>
+            <li id="resumeL" class="nav"><button onclick="tabOpen('resume')">Resumé</button></li>
+            <li id="portfoL" class="nav"><button onclick="tabOpen('portfo')">Portfolio</button></li>
+            <li id="contactL" class="nav"><button onclick="tabOpen('contact')">Contact Me</button></li>
+        </ul>
+        <div class="contentcontainer">
+            <div class="content selected" id="home">
+                Hey, here's some stuff I'd like to tell you about who I am as a person:
+                <ul>
+                    <li>I try to think rationally and enjoy solving new logical problems.</li>
+                    <li>When I'm not in a rush, I like to think of a new way to do what I'm doing.</li>
+                    <li>I'm a very accepting person, whether it's people or problems.</li>
+                    <li>I often take the time to reevaluate my opinions if they are challenged.</li>
+                    <li>I make baking a hobby, though I spend much of my time on the internet.</li>
+                    <li>I have trouble choosing or remembering "favorite" things, most of the time.</li>
+                </ul>
+            </div>
+            <div class="content" id="resume">
+                Here is a link to my most current resumé (date included in actual file name):
+                <p><a href="test.txt">Klein_Elias_Resume.pdf</a></p>
+                [todo: make and link resume]
+            </div>
+            <div class="content" id="portfo">
+                    <ul id="portfolioList">
+                        <li>
+                            <a href="https://gliou.itch.io/strands-of-existence-final">
+                                This link
+                            </a>
+                            is to a mostly-complete, albeit small game I worked on as a
+                            part of a team in college. It is written with help from a
+                            library called Phaser, which has methods for dealing with
+                            audio/image files in a much easier way than native JS.
+                        </li>
+                        <li>More to come (for instance if I remember something I did a long time ago)</li>
+                    </ul>
+            </div>
+            <div class="content" id="contact">
+                My current contact information is (limited to):
+                <ul id="contactInfoList">
+                    <li>Email: eskklein@comcast.net</li>
+                </ul>
+                I check my email approximately once per day on average.
+                If I don't get back to you for 3 or more days, I may
+                have overlooked it or forgotten to get back to responding
+                (as I often check email when I have other things to do soon after).
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
