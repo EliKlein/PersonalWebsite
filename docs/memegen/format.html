@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js"></script>
+        <title>"Meme generator"</title>
+    </head>
+    <body>
+        <div id="preview"></div>
+        <table id="textInputs">
+            <tr>
+                <td>Image URL:</td>
+                <td><input type="text" class="textInput" id="imgURL"></td>
+                <td id="widthfix"></td>
+                <td id="wf2">Text Size (entire image):</td>
+                <td><input id="fontsize" type="text" class="textInput" value="28pt"></td>
+            </tr>
+            <tr>
+                <td>Top Text:</td>
+                <td colspan=2><input type="text" class="textInput" id="textTop"></td>
+                <td>X: 50%</td>
+                <td>Y: 15%</td>
+            </tr>
+            <tr>
+                <td>Bottom Text:</td>
+                <td colspan=2><input type="text" class="textInput" id="textBot"></td>
+                <td>X: 50%</td>
+                <td>Y: 85%</td>
+            </tr>
+        </table>
+        <button onClick="refreshImg();">Refresh preview</button>
+        <button id="addImageButton" onClick="addImg();">Add it!</button>
+        <button onclick="addTextLoc();">More text (custom location)</button><p></p>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+/*Macro look*/
+body{
+    /*font size 0 is required (well, you can do other things, but it's the best solution imo)
+    if you want to get rid of the spaces between inline-block elements*/
+    font-size:0;
+}
+table{
+    font-size:initial;
+}
+
+/*Image*/
+.customImageDiv{
+    position:relative;
+    display:inline-block;
+    margin:5px 0px 30px 5px;
+}
+#preview{
+    margin-bottom:inherit;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+}
+.imageText{
+    font-size:inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+
+    width:65%;/*otherwise, the width is set to x% where x is the remaining space from the left offset, I think*/
+
+    /*
+    thanks to 
+    https://stackoverflow.com/questions/2310734/how-to-make-html-text-unselectable
+    for the below positioning stuff
+    */
+    position:absolute;
+    transform:translate(-50%, -50%);
+    text-align:center;
+
+    /*
+    thanks to
+    https://stackoverflow.com/questions/2310734/how-to-make-html-text-unselectable
+    for how to make text unselectable
+    */
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    cursor:default;
+}
+.editBtn, .trashBtn{
+    position:absolute;
+    display:inline-block;
+    transform:translate(-50%, 0%);
+    width:30px;
+    height:30px;
+    border-style:none;
+}
+.editBtn{
+    left:33%;
+    background-image:url(edit.png);
+}
+.trashBtn{
+    left:67%;
+    background-image:url(trash.png);
+}
+
+/*Table*/
+#textInputs>tr{
+    height:20px;
+}
+.textInput{
+    width:200px;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.removeText{
+    /*the button that removes the custom text table row it sits on*/
+    border-style:none;
+    padding:0;
+    background-image:url(x.png);
+    width:20px;
+    height:20px;
+}
+#widthfix{
+    /*without fixing the width of the upper table data element, inserting a row with a
+    button in it would change the layout of the table somewhat*/
+    width:20px;
+}
+#wf2{
+    /*I have no idea why it's not respecting the borders of the text thing being invisible or
+    whatever it's doing (table padding or something?) that makes it need to be 202 instead of 200
+    anyways, wf2 = width fix 2*/
+    width:202px;
+}
