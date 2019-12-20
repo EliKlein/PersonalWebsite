@@ -1,0 +1,47 @@
+.card{
+    background:none;
+    border:none;
+}
+img.card{
+    width:125px;
+    height:175px;
+    padding:0;
+    opacity:inherit;
+
+    position:relative;
+    left:0;
+    top:0;
+
+    display:none;
+}
+#TESTb, #TEST2b{
+    display:block;
+}
+button.card{
+    opacity:1;
+    display:contents;
+}
+.bcol{/*button column -- bcel is button cell*/
+    float:left;
+    list-style-type: none;
+    width:125px;
+    margin:0px 5px;
+    padding:0;
+    height:100%;
+}
+.bcel{
+    margin:5px 0px;
+}
+.spacer{
+    margin:0;
+    height:100%;
+}
+#gridbox{
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+#warn{
+    display:none;
+}

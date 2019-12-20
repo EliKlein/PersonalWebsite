@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <!--
+    Emmet shortcuts:
+    child: >
+    sibling: +
+    climb: ^
+    parenthases work
+    copying (multiplying): *
+    numbering: $*
+    attributes: [name=value]
+    content: {}
+    -->
+</head>
+<body>
+    <table>
+        <tr>
+            <td><select id="diff"><option value="n">Regular</option><option value="h">Complicated</option></select></td>
+            <td><button id="startbtn" onclick="startGame();">Start</button></td>
+            <td><button onclick="viewScores();">High Scores</button></td>
+            <td><button onclick="info();">Help</button></td>
+            <td><button onclick="if(confirm('Just making sure you didn\'t misclick. (OK -> quit, cancel -> resume)')) endGame(false);">Quit</button></td>
+        </tr>
+    </table>
+    <p id="warn">
+        Warning: The puzzle may currently be impossible to solve,
+        or it may become impossible to solve depending on what pairs you find in what order.
+        I currently have no idea what logic I could use to get around this.
+    </p>
+    <div id="gridbox"></div>
+    <div id="indicator"></div>
+</body>
+</html>
