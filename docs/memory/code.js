@@ -6,8 +6,11 @@ const CARD_IMAGE_HEIGHT = 175;
 var scoreList = [];
 try{
     if(localStorage.getItem("scores")){
-        for(let i in localStorage.getItem("scores").split(",")) scoreList.push({score:Number(i)});
-        localStorage.getItem("dates").split(",").forEach(function(d, ind){scoreList[ind].date = d});
+        let s = localStorage.getItem("scores").split(",");
+        let d = localStorage.getItem("dates").split(",");
+        for(let i = 0; i < s.length; i++){
+            scoreList.push({"date":d[i], "score":s[i]})
+        }
     }
 }catch(e){console.log(e)}
 
