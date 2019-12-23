@@ -17,21 +17,44 @@
     -->
 </head>
 <body>
+    <button id="quitbtn" onclick="endGame(false);">Quit</button>
     <table>
         <tr>
             <td><select id="diff"><option value="n">Regular</option><option value="h">Complicated</option></select></td>
             <td><button id="startbtn" onclick="startGame();">Start</button></td>
-            <td><button onclick="viewScores();">High Scores</button></td>
             <td><button onclick="info();">Help</button></td>
-            <td><button onclick="if(confirm('Just making sure you didn\'t misclick. (OK -> quit, cancel -> resume)')) endGame(false);">Quit</button></td>
+            <td><button onclick="viewScores();">High Scores</button></td>
         </tr>
     </table>
+    <img id="indicator"></img>
+    <p id="info"><strong>Regular mode:</strong>
+        <br/>Match cards that have the same number and same suit color.
+        <br/>For example, the nine of hearts and the nine of diamonds are a match.
+        <br/>
+        <br/><strong>Complicated mode:</strong>
+        <br/>Match cards based on what the image in the corner shows. Cards will disappear completely, and slide upwards to fill empty spaces.
+        <br/>
+        <br/><img src="valueInd.png" style="float:left">
+        <br/>This symbol means you need to match two cards with the same number.
+        <br/>For example, the ace of spaces matches the ace of diamonds, the ace of clubs, or the ace of hearts.
+        <br/>
+        <br/>
+        <br/>
+        <br/><img src="suitInd.png" style="float:left">
+        <br/>This symbol means you need to match two cards with the same suit. 
+        <br/>Any two cards of the same suit will do, the numbers don't need to match.
+        <br/>The suit colors do not matter in this mode, only their shapes.
+        <br/>
+        <br/>
+        <br/>If there are no more matches to be made, a few new cards will fall in.
+    </p>
     <p id="warn">
         Warning: The puzzle may currently be impossible to solve,
         or it may become impossible to solve depending on what pairs you find in what order.
         I currently have no idea what logic I could use to get around this.
     </p>
     <div id="gridbox"></div>
-    <div id="indicator"></div>
+    <div id="oneScore"></div>
+    <div id="scorebox"><ul id="scorelist"></ul></div>
 </body>
 </html>

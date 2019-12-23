@@ -30,8 +30,7 @@ table{
     width:65%;/*otherwise, the width is set to x% where x is the remaining space from the left offset, I think*/
 
     /*
-    thanks to 
-    https://stackoverflow.com/questions/2310734/how-to-make-html-text-unselectable
+    thanks to https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero
     for the below positioning stuff
     */
     position:absolute;
