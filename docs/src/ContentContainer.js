@@ -1,20 +1,23 @@
 import React from 'react';
-import {Route, Switch, Redirect} from 'react-router';
+import {Switch, Redirect} from 'react-router';
 import './ContentContainer.css';
 
 function ContentContainer({}) {
   return (
-    <div>
+    <div class="ContentContainer">
       <Switch>
-        <Route exact path="/">
+        <Content pathOf="/">
           <About/>
-        </Route>
-        <Route exact path="/portfolio">
+        </Content>
+        <Content pathOf="/resume">
+          <Resume/>
+        </Content>
+        <Content pathOf="/portfolio">
           <Portfolio/>
-        </Route>
-        <Route exact path="/contact">
+        </Content>
+        <Content pathOf="/contact">
           <ContactInfo/>
-        </Route>
+        </Content>
         <Redirect/>
       </Switch>
     </div>
