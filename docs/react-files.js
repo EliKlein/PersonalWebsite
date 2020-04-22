@@ -20,6 +20,7 @@ export default ${base};`, function (err) {
     console.log(err);
   });
 
+  // Smoke test, snapshot test
   fs.appendFile(`tests/${base}.test.js`, `import React from 'react';
 import {render} from '@testing-library/react';
 import ${base} from './${base}'

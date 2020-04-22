@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="sitestyles.css">
-    <script src="sitejs.js"></script>
-    <title>Personal website</title>
-    <!--
+  <link rel="stylesheet" href="sitestyles.css">
+  <script src="sitejs.js"></script>
+  <title>Personal website</title>
+  <!--
     Emmet shortcuts:
     child: >
     sibling: +
@@ -19,68 +19,75 @@
 </head>
 
 <body>
-    <h2>Eli Klein</h2>
-    <h1>Personal Website</h1>
-    <div id="main">
-        <ul id="navbar">
-            <!-- L is for link... I think... I forgot and didn't write it down earlier -->
-            <li id="homeL" class="nav selected"><button onclick="tabOpen('home')">Cover/Home</button></li>
-            <li id="resumeL" class="nav"><button onclick="tabOpen('resume')">Resumé</button></li>
-            <li id="portfoL" class="nav"><button onclick="tabOpen('portfo')">Projects</button></li>
-            <li id="contactL" class="nav"><button onclick="tabOpen('contact')">Contact Me</button></li>
+  <h2>Eli Klein</h2>
+  <h1>Personal Website</h1>
+  <div id="main">
+    <ul id="navbar">
+      <!-- L is for link... I think... I forgot and didn't write it down earlier -->
+      <li id="homeL" class="nav selected"><button onclick="tabOpen('home')">Cover/Home</button></li>
+      <li id="resumeL" class="nav"><button onclick="tabOpen('resume')">Resumé</button></li>
+      <li id="portfoL" class="nav"><button onclick="tabOpen('portfo')">Projects</button></li>
+      <li id="contactL" class="nav"><button onclick="tabOpen('contact')">Contact Me</button></li>
+    </ul>
+    <div class="contentcontainer">
+      <div class="content selected" id="home">
+        Hey, here's some stuff I'd like to tell you about who I am as a person:
+        <ul>
+          <li>I try to think rationally and enjoy solving new logical problems.</li>
+          <li>When I'm not in a rush, I like to think of a new way to do what I'm doing.</li>
+          <li>I'm a very accepting person, whether it's people or problems.</li>
+          <li>I often take the time to reevaluate my opinions if they are challenged.</li>
+          <li>I make baking a hobby, though I spend much of my time on the internet.</li>
+          <li>I have trouble choosing or remembering "favorite" things, most of the time.</li>
+          <li>I tend to be honest. For example, I avoid false praise.</li>
         </ul>
-        <div class="contentcontainer">
-            <div class="content selected" id="home">
-                Hey, here's some stuff I'd like to tell you about who I am as a person:
-                <ul>
-                    <li>I try to think rationally and enjoy solving new logical problems.</li>
-                    <li>When I'm not in a rush, I like to think of a new way to do what I'm doing.</li>
-                    <li>I'm a very accepting person, whether it's people or problems.</li>
-                    <li>I often take the time to reevaluate my opinions if they are challenged.</li>
-                    <li>I make baking a hobby, though I spend much of my time on the internet.</li>
-                    <li>I have trouble choosing or remembering "favorite" things, most of the time.</li>
-                </ul>
-            </div>
-            <div class="content" id="resume">
-                Here is a link to my most current resumé (date in file name):
-                <p><a href="Klein_Elias_Resume_11-17.pdf">PDF file</a></p>
-            </div>
-            <div class="content" id="portfo">
-                    <ul id="portfolioList">
-                        <li>
-                            <a href="memegen/format.html">This</a>
-                            is a project for Rithm School that was part of the pre-work related to creating this website.
-                            The goal of this project was to create a "meme generator" that lets you put arbitrary text
-                            on top of arbitrary images.
-                        </li>
-                        <li>
-                            <a href="memory/page.html">This</a>
-                            is a link to a similar project. The goal for this project was to create a memory game.
-                        </li>
-                        <li>
-                            <a href="https://gliou.itch.io/strands-of-existence-final">
-                                This link
-                            </a>
-                            is to a mostly-complete, albeit small game I worked on as a
-                            part of a team for one quarter in college. It is written with
-                            help from a library called Phaser, which has methods for dealing
-                            with audio/image files in a much easier way than native JS.
-                        </li>
-                        <li>More to come (for instance if I remember something I did a long time ago)</li>
-                    </ul>
-            </div>
-            <div class="content" id="contact">
-                My current contact information is:
-                <ul id="contactInfoList">
-                    <li>Email: eskklein@comcast.net</li>
-                    <li>Cell Phone: 650-399-5442 -- Leave a message!
-                        I will most likely not pick up upon seeing a strange number,
-                        because of the enormous number of spam/scam/robo-calls that
-                        have been happening lately, but I listen to voice mail</li>
-                </ul>
-            </div>
-        </div>
+      </div>
+      <div class="content" id="resume">
+        Here is a link to my most current resumé (date in file name):
+        <p><a href="Klein_Elias_Resume_11-17.pdf">PDF file</a></p>
+      </div>
+      <div class="content" id="portfo">
+        <ul id="portfolioList">
+          <li>
+            <a href="memegen/format.html">This</a>
+            is a project for Rithm School that was part of the pre-work related to creating this website.
+            The goal of this project was to create a "meme generator" that lets you put arbitrary text
+            on top of arbitrary images.
+          </li>
+          <li>
+            <a href="memory/page.html">This</a>
+            is a link to a similar project. The goal for this project was to create a memory game.
+          </li>
+          <li>
+            <a href="https://gliou.itch.io/strands-of-existence-final">
+              This link
+            </a>
+            is to a mostly-complete, albeit small game I worked on as a
+            part of a team for one quarter in college. It is written with
+            help from a library called Phaser, which has methods for dealing
+            with audio/image files much more easily than you can with basic JS.
+          </li>
+          <li>
+            <a href="https://eliklein.github.io/PersonalWebsite/">This</a>
+            is a React application I designed that demonstrates [insert standard recursion joke].
+          </li>
+          <li>More to come (for instance if I remember something I did a long time ago)</li>
+        </ul>
+      </div>
+      <div class="content" id="contact">
+        My current contact information is:
+        <ul id="contactInfoList">
+          <li>Email: eskklein@comcast.net</li>
+          <li>
+            Cell Phone: 650-399-5442 -- Leave a message!
+            As I say in my voice mail, I will most likely not pick up upon seeing a strange number.
+            There have been an enormous number of spam/scam/robo-calls lately,
+            but I listen to voice mail because hardly any of them bother to leave voice mails.
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>
