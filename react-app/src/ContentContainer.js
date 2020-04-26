@@ -9,22 +9,22 @@ function ContentContainer() {
   return (
     <div className="ContentContainer container">
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/PersonalWebsite">
           <div className="Content container">
             <About />
           </div>
         </Route>
-        <Route path="/portfolio">
+        <Route path="/PersonalWebsite/portfolio">
           <div className="Content container">
             <Portfolio />
           </div>
         </Route>
-        <Route path="/contact">
+        <Route path="/PersonalWebsite/contact">
           <div className="Content container">
             <ContactInfo />
           </div>
         </Route>
-        <Redirect to="/" />
+        <Redirect to="/PersonalWebsite" />
       </Switch>
     </div>
   )
