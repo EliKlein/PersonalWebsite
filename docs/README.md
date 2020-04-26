@@ -1,3 +1,9 @@
+# APPARENTLY
+
+github pages wants to show the readme instead of the index... so... sorry if you're looking at this while I'm trying to fix it.
+
+## actual readme ↓
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
