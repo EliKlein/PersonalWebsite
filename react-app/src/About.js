@@ -33,7 +33,7 @@ function About() {
           <li>I tend to be honest. For example, I avoid false praise.</li>
         </ul>
         <div className="About-Card card col">
-          <img className="rounded img-fluid" src="one_eternity_later.jpg"
+          <img className="rounded img-fluid" src="PersonalWebsite/one_eternity_later.jpg"
             alt="Spongebob 'one eternity later' card"></img>
           Oh, and this is where I would put a picture of me. If I had one. But
           I don't really take pictures of myself, so this is going to have to
