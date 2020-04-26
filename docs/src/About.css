@@ -2,5 +2,6 @@
   list-style: circle outside none;
 }
 .About-Card{
-  margin-top: -2.5em;
+  margin-top: -2.5rem;
+  padding: 15px;
 }
