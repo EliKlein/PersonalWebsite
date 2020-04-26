@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import ContactInfo from './ContactInfo'
+import NavTab from './NavTab'
 
 it('renders without crashing', function () {
-  render(<ContactInfo />);
+  render(<NavTab />);
 });
 
 it('matches snapshot', function () {
-  const { asFragment } = render(<ContactInfo />);
+  const { asFragment } = render(<NavTab />);
   expect(asFragment()).toMatchSnapshot();
 });

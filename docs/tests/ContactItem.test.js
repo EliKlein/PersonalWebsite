@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import ContactInfo from './ContactInfo'
+import ContactItem from './ContactItem'
 
 it('renders without crashing', function () {
-  render(<ContactInfo />);
+  render(<ContactItem />);
 });
 
 it('matches snapshot', function () {
-  const { asFragment } = render(<ContactInfo />);
+  const { asFragment } = render(<ContactItem />);
   expect(asFragment()).toMatchSnapshot();
 });

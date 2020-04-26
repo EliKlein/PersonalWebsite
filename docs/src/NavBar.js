@@ -1,14 +1,13 @@
 import React from 'react';
-import NavLink from 'react-router';
+import NavTab from './NavTab';
 import './NavBar.css';
 
 function NavBar() {
   return (
-    <nav className="NavBar">
-      <NavLink className="NavBar-Link" to="/">Main</NavLink>
-      <NavLink className="NavBar-Link" to="/resume">Resumé</NavLink>
-      <NavLink className="NavBar-Link" to="/portfolio">Projects</NavLink>
-      <NavLink className="NavBar-Link" to="/contact">Contact</NavLink>
+    <nav className="NavBar nav nav-tabs">
+      <NavTab linkTo="/">About Me</NavTab>
+      <NavTab linkTo="/portfolio">Projects</NavTab>
+      <NavTab linkTo="/contact">Contact</NavTab>
     </nav>
   )
 }

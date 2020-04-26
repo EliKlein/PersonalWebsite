@@ -1,3 +1,9 @@
+.ContentContainer{
+  padding: 2em;
+}
 .Content{
-  /* CSS HERE */
+  padding: 1em;
+}
+.Content-Related-Head{
+  margin-bottom: 1em;
 }
