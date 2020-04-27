@@ -1,10 +1,6 @@
-# APPARENTLY
-
-github pages wants to show the readme instead of the index... so... sorry if you're looking at this while I'm trying to fix it.
-
-## actual readme ↓
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Sometime soon I'll actually run the tests (to get some snapshots), but I'd like to change the css too. I'm thinking I'll do those both around the same time.
 
 ## Available Scripts
 
@@ -25,11 +21,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder...<br />
+I've changed this so that it also then moves the build folder to overwrite the docs folder, then copies other projects into it.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The build is minified and the filenames include the hashes.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
