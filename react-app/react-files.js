@@ -30,7 +30,7 @@ for (let i = 2; i < process.argv.length; i++) {
   testFile = [
     "import React from 'react';",
     "import { render } from '@testing-library/react';",
-    `import ${base} from './${base}'`,
+    `import ${base} from '../${base}'`,
     "",
     "it('renders without crashing', function () {",
     `  render(<${base} />);`,
@@ -49,6 +49,6 @@ for (let i = 2; i < process.argv.length; i++) {
   ].join("\n");
 
   fs.appendFile(`src/${base}.js`, jsFile, showMeTheError);
-  fs.appendFile(`tests/${base}.test.js`, testFile, showMeTheError);
+  fs.appendFile(`src/tests/${base}.test.js`, testFile, showMeTheError);
   fs.appendFile(`src/${base}.css`, cssFile, showMeTheError);
 }
