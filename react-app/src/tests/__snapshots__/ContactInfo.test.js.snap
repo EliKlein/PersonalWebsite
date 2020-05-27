@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <h4
+    class="Content-Related-Head"
+  >
+    My current information:
+  </h4>
+  <div
+    class="container"
+  >
+    <p
+      class="ContactInfo-para"
+    >
+      <strong>
+        Email: 
+      </strong>
+      eskklein@comcast.net
+    </p>
+    <p
+      class="ContactInfo-para"
+    >
+      <strong>
+        LinkedIn: 
+      </strong>
+      <a
+        href="https://www.linkedin.com/in/-elias-klein-/"
+      >
+        Elias Klein
+      </a>
+    </p>
+    <p
+      class="ContactInfo-para"
+    >
+      <strong>
+        GitHub: 
+      </strong>
+      <a
+        href="https://github.com/EliKlein"
+      >
+        EliKlein
+      </a>
+    </p>
+    <p
+      class="ContactInfo-para"
+    >
+      <strong>
+        Cell Phone: 
+      </strong>
+      1-650-399-5442
+      <br />
+      Leave a message! I will most likely not pick up my cell phone. I often
+      ignore it to avoid spam, but I always listen to voice mail.
+    </p>
+  </div>
+</DocumentFragment>
+`;

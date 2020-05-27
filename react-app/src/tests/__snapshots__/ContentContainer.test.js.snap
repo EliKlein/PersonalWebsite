@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot (contact page) 1`] = `
+<DocumentFragment>
+  <div
+    class="ContentContainer container"
+  >
+    <div
+      class="Content container"
+    >
+      <h4
+        class="Content-Related-Head"
+      >
+        My current information:
+      </h4>
+      <div
+        class="container"
+      >
+        <p
+          class="ContactInfo-para"
+        >
+          <strong>
+            Email: 
+          </strong>
+          eskklein@comcast.net
+        </p>
+        <p
+          class="ContactInfo-para"
+        >
+          <strong>
+            LinkedIn: 
+          </strong>
+          <a
+            href="https://www.linkedin.com/in/-elias-klein-/"
+          >
+            Elias Klein
+          </a>
+        </p>
+        <p
+          class="ContactInfo-para"
+        >
+          <strong>
+            GitHub: 
+          </strong>
+          <a
+            href="https://github.com/EliKlein"
+          >
+            EliKlein
+          </a>
+        </p>
+        <p
+          class="ContactInfo-para"
+        >
+          <strong>
+            Cell Phone: 
+          </strong>
+          1-650-399-5442
+          <br />
+          Leave a message! I will most likely not pick up my cell phone. I often
+      ignore it to avoid spam, but I always listen to voice mail.
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot (main page) 1`] = `
+<DocumentFragment>
+  <div
+    class="ContentContainer container"
+  >
+    <div
+      class="Content container"
+    >
+      <div
+        class="About-Main container"
+      >
+        <p>
+          This is my 
+          <a
+            href="Klein_Elias_Resume_4-22-2020.pdf"
+          >
+            PDF
+          </a>
+           format resumé (dated 4/22/2020).
+        </p>
+        <h5
+          class="Content-Related-Head"
+        >
+          Me as a person:
+        </h5>
+        <div
+          class="row"
+        >
+          <ul
+            class="About-List col-9"
+          >
+            <li>
+              I'm always curious about how things work, or if things work. I dive into new technologies to find out exactly what makes them tick. I also sometimes experiment with bizarre code (on my own) to see if it does what I think it will.
+            </li>
+            <li>
+              I accept things for what they are. When I want things to change, it's based in solid reasoning, and I have the ability to instigate the change I want.
+            </li>
+            <li>
+              I listen to others, and I'm good at acting on criticism. Honestly, in person I probably seem like I'm making excuses, but I do that to help myself understand what I can do better.
+            </li>
+            <li>
+              I avoid false praise because I don't like lying. If I'm not a fan of something, I still know what parts I do appreciate, and if I can't focus on that, I think about what could be improved.
+            </li>
+            <li>
+              I'd like to mention some hobbies now:
+              <ul
+                class="About-SubList"
+              >
+                <li>
+                  Video/board/role-playing/card Games
+                </li>
+                <li>
+                  Baking (not cooking)
+                </li>
+                <li>
+                  Crossword puzzles (New York Times app)
+                </li>
+                <li>
+                  Puns (maybe more of a personality trait than a hobby)
+                </li>
+                <li>
+                  Netflix/etc. (I like anime in particular)
+                </li>
+                <li>
+                  Piano (no improvising)
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <img
+            alt="me"
+            class="rounded img-fluid col"
+            src="picture-of-me.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot (portfolio page) 1`] = `
+<DocumentFragment>
+  <div
+    class="ContentContainer container"
+  >
+    <div
+      class="Content container"
+    >
+      <ul
+        class="PortfolioList"
+      >
+        <li
+          class="PortfolioItem"
+        >
+          As part of the Game Design Experience/Game Development Experience
+    courses at UCSC, I teamed up with two others to create 
+          <a
+            href="https://gliou.itch.io/strands-of-existence-final"
+          >
+            this video game
+          </a>
+           for two players, which is close to a board game.
+        </li>
+        <li
+          class="PortfolioItem"
+        >
+          As part of the pre-work at Rithm School, we created a "
+          <a
+            href="memegen/format.html"
+          >
+            meme generator
+          </a>
+          " which lets you put arbitrary text on top of arbitrary images.
+        </li>
+        <li
+          class="PortfolioItem"
+        >
+          Another part of the pre-work was 
+          <a
+            href="memory/page.html"
+          >
+            this
+          </a>
+           memory game project.
+        </li>
+        <li
+          class="PortfolioItem"
+        >
+          I designed 
+          <a
+            href="https://eliklein.github.io/PersonalWebsite/portfolio"
+          >
+            this cliche joke about recursion
+          </a>
+           to demonstrate that I can use React.
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

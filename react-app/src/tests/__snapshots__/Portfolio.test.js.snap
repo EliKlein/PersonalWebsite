@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="PortfolioList"
+  >
+    <li
+      class="PortfolioItem"
+    >
+      As part of the Game Design Experience/Game Development Experience
+    courses at UCSC, I teamed up with two others to create 
+      <a
+        href="https://gliou.itch.io/strands-of-existence-final"
+      >
+        this video game
+      </a>
+       for two players, which is close to a board game.
+    </li>
+    <li
+      class="PortfolioItem"
+    >
+      As part of the pre-work at Rithm School, we created a "
+      <a
+        href="memegen/format.html"
+      >
+        meme generator
+      </a>
+      " which lets you put arbitrary text on top of arbitrary images.
+    </li>
+    <li
+      class="PortfolioItem"
+    >
+      Another part of the pre-work was 
+      <a
+        href="memory/page.html"
+      >
+        this
+      </a>
+       memory game project.
+    </li>
+    <li
+      class="PortfolioItem"
+    >
+      I designed 
+      <a
+        href="https://eliklein.github.io/PersonalWebsite/portfolio"
+      >
+        this cliche joke about recursion
+      </a>
+       to demonstrate that I can use React.
+    </li>
+  </ul>
+</DocumentFragment>
+`;
