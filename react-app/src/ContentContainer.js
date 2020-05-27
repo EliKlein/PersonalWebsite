@@ -24,6 +24,22 @@ function ContentContainer() {
             <ContactInfo />
           </div>
         </Route>
+        {/*
+        These next routes are here to allow routing to work on my end.
+        Otherwise it only works properly on github. Regardless I can't check
+        that files are linked properly, but that's less of an issue because I
+        won't need to check their CSS.
+        */}
+        <Route path="/portfolio">
+          <div className="Content container">
+            <Portfolio />
+          </div>
+        </Route>
+        <Route path="/contact">
+          <div className="Content container">
+            <ContactInfo />
+          </div>
+        </Route>
         <Redirect to="/PersonalWebsite" />
       </Switch>
     </div>
