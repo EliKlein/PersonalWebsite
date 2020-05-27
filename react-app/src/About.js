@@ -48,8 +48,10 @@ function About() {
             </ul>
           </li>
         </ul>
-        <img className="rounded img-fluid col" src="picture-of-me.jpg"
-          alt="me"></img>
+        <div className="col">
+          <img className="rounded img-fluid" src="picture-of-me.jpg"
+            alt="me"></img>
+        </div>
       </div>
     </div>
   )

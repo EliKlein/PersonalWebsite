@@ -63,11 +63,15 @@ exports[`matches snapshot 1`] = `
           </ul>
         </li>
       </ul>
-      <img
-        alt="me"
-        class="rounded img-fluid col"
-        src="picture-of-me.jpg"
-      />
+      <div
+        class="col"
+      >
+        <img
+          alt="me"
+          class="rounded img-fluid"
+          src="picture-of-me.jpg"
+        />
+      </div>
     </div>
   </div>
 </DocumentFragment>
