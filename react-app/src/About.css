@@ -1,4 +1,7 @@
 .About-List{
+  list-style: disc outside none;
+}
+.About-SubList{
   list-style: circle outside none;
 }
 .About-Card{

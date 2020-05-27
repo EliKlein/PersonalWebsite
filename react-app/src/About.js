@@ -15,30 +15,41 @@ function About() {
       <h5 className="Content-Related-Head">Me as a person:</h5>
       <div className="row">
         <ul className="About-List col-9">
-          <li>I try to think rationally</li>
-          <li>I enjoy solving new logical problems.</li>
-          <li>When I have time, I like to try new ways to do things.</li>
           <li>
-            I lean on apathy over anger. If I don't like something, I ask
-            myself what I can do about it and if it's worth doing.
+            I'm always curious about how things work, or if things work. I
+            dive into new technologies to find out exactly what makes them
+            tick. I also sometimes experiment with bizarre code (on my own) to
+            see if it does what I think it will.
           </li>
           <li>
-            I often take the time to reevaluate my opinions if they are
-            challenged.
+            I accept things for what they are. When I want things to change,
+            it's based in solid reasoning, and I have the ability to instigate
+            the change I want.
           </li>
           <li>
-            I make baking a hobby, though I spend much of my time on the
-            internet.
+            I listen to others, and I'm good at acting on criticism. Honestly,
+            in person I probably seem like I'm making excuses, but I do that
+            to help myself understand what I can do better.
           </li>
-          <li>I tend to be honest. For example, I avoid false praise.</li>
+          <li>
+            I avoid false praise because I don't like lying. If I'm not a
+            fan of something, I still know what parts I do appreciate, and
+            if I can't focus on that, I think about what could be improved.
+          </li>
+          <li>
+            I'd like to mention some hobbies now:
+            <ul className="About-SubList">
+              <li>Video/board/role-playing/card Games</li>
+              <li>Baking (not cooking)</li>
+              <li>Crossword puzzles (New York Times app)</li>
+              <li>Puns (maybe more of a personality trait than a hobby)</li>
+              <li>Netflix/etc. (I like anime in particular)</li>
+              <li>Piano (no improvising)</li>
+            </ul>
+          </li>
         </ul>
-        <div className="About-Card card col">
-          <img className="rounded img-fluid" src="one_eternity_later.jpg"
-            alt="Spongebob 'one eternity later' card"></img>
-          Oh, and this is where I would put a picture of me. If I had one. But
-          I don't really take pictures of myself, so this is going to have to
-          wait until I figure out what kind of picture to take.
-        </div>
+        <img className="rounded img-fluid col" src="picture-of-me.jpg"
+          alt="me"></img>
       </div>
     </div>
   )
