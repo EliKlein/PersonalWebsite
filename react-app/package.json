@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build/index.html build/404.html && rm -rf ../docs && mv build ../docs && cp -R ../old/docs/memory ../docs && cp -R ../old/docs/memegen ../docs",
+    "build": "react-scripts build && cp build/index.html build/404.html && rm -rf ../docs && mv build ../docs && cp -R ../old/docs/memory ../docs && cp -R ../old/docs/memegen ../docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "component": "node react-files.js"
