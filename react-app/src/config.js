@@ -1,6 +1,6 @@
 /* Maybe "info"/"data" would be a better name for this file */
 
-export const RESUME_DATE = "4-22-2020";
+export const RESUME_DATE = "5-11-2020";
 
 export const PROJECTS = [
   {
@@ -9,6 +9,17 @@ export const PROJECTS = [
     courses at UCSC, I teamed up with two others to create `,
     link: "this video game",
     after: " for two players, which is close to a board game."
+  },
+  {
+    location: "https://warbler-project-rithm14.herokuapp.com/",
+    before: "During rithm school, I worked on ",
+    link: "this project",
+    after: ` as a two-day pair programming assignment. There was some starter
+    code, but a fair amount of it was us. We were told not to do anything with
+    the server code and see how much we could do just on the front end files.
+    This uses Bootstrap and Express. If you want to make an account, the
+    e-mail address isn't used for anything so put in a bogus one. There is
+    also a public account called "public" with the password "public."`
   },
   {
     location: "memegen/format.html",
