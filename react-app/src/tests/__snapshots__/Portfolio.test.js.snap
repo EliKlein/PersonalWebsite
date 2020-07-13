@@ -20,6 +20,20 @@ exports[`matches snapshot 1`] = `
     <li
       class="PortfolioItem"
     >
+      At Rithm school, I worked on 
+      <a
+        href="https://warbler-project-rithm14.herokuapp.com/"
+      >
+        this project
+      </a>
+       with another student as a pair. This uses Bootstrap and Express.
+    In case you want to try make an account-- the e-mail address doesn't
+    matter. You should make one up. There is also a premade account called
+    "public" with the password "public".
+    </li>
+    <li
+      class="PortfolioItem"
+    >
       As part of the pre-work at Rithm School, we created a "
       <a
         href="memegen/format.html"

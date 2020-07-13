@@ -7,50 +7,49 @@ function About() {
   const date = RESUME_DATE.replace(/-/g, "/");
   return (
     <div className="About-Main container">
+      <h5 className="Content-Related-Head">Resumé:</h5>
       <p>
-        This is my{" "}
-        <a href={pdfLink}>PDF</a>
-        {" "}format resumé (dated {date}).
+        See pdf{" "}<a href={pdfLink}>here</a>{" "}(updated {date})
       </p>
       <h5 className="Content-Related-Head">Me as a person:</h5>
       <div className="row">
         <ul className="About-List col-9">
           <li>
             I'm always curious about how things work, or if things work. I
-            dive into new technologies to find out exactly what makes them
-            tick. I also sometimes experiment with bizarre code (on my own) to
-            see if it does what I think it will.
+            like to dive into new technologies to find out exactly what makes
+            them tick.
           </li>
           <li>
-            I accept things for what they are. When I want things to change,
-            it's based in solid reasoning, and I have the ability to instigate
-            the change I want.
+            I accept most things for what they are; because, most of the time
+            there's either no reason or no way to change them.
           </li>
           <li>
-            I listen to others, and I'm good at acting on criticism. Honestly,
-            in person I probably seem like I'm making excuses, but I do that
-            to help myself understand what I can do better.
+            I listen to others, and I'm receptive to criticism. Though, I
+            remember things best when I express them to others, so I might
+            sound like I'm making excuses.
           </li>
           <li>
-            I avoid false praise because I don't like lying. If I'm not a
-            fan of something, I still know what parts I do appreciate, and
-            if I can't focus on that, I think about what could be improved.
+            I try to be positive and honest. In the rare case that I can't be
+            both, I prefer being honest.
           </li>
           <li>
-            I'd like to mention some hobbies now:
+            I have some hobbies...
             <ul className="About-SubList">
-              <li>Video/board/role-playing/card Games</li>
-              <li>Baking (not cooking)</li>
-              <li>Crossword puzzles (New York Times app)</li>
-              <li>Puns (maybe more of a personality trait than a hobby)</li>
-              <li>Netflix/etc. (I like anime in particular)</li>
-              <li>Piano (no improvising)</li>
+              <li>
+                Video games, board games, role-playing games, card games, word
+                games. Any games.
+              </li>
+              <li>Baking</li>
+              <li>Netflix/etc. - I like anime in particular</li>
+              <li>Crossword puzzles</li>
+              <li>Piano (I don't improvise)</li>
             </ul>
           </li>
+          <li>Also, I've been known to make a lot of puns.</li>
         </ul>
         <div className="col">
-          <img className="rounded img-fluid" src="picture-of-me.jpg"
-            alt="me"></img>
+          <img className="rounded img-fluid" src="picture-of-me.jpg" alt="me">
+          </img>
         </div>
       </div>
     </div>

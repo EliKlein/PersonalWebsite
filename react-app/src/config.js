@@ -12,14 +12,12 @@ export const PROJECTS = [
   },
   {
     location: "https://warbler-project-rithm14.herokuapp.com/",
-    before: "During rithm school, I worked on ",
+    before: "At Rithm school, I worked on ",
     link: "this project",
-    after: ` as a two-day pair programming assignment. There was some starter
-    code, but a fair amount of it was us. We were told not to do anything with
-    the server code and see how much we could do just on the front end files.
-    This uses Bootstrap and Express. If you want to make an account, the
-    e-mail address isn't used for anything so put in a bogus one. There is
-    also a public account called "public" with the password "public."`
+    after: ` with another student as a pair. This uses Bootstrap and Express.
+    In case you want to try make an account-- the e-mail address doesn't
+    matter. You should make one up. There is also a premade account called
+    "public" with the password "public".`
   },
   {
     location: "memegen/format.html",
