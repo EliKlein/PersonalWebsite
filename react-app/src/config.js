@@ -1,6 +1,6 @@
 /* Maybe "info"/"data" would be a better name for this file */
 
-export const RESUME_DATE = "5-11-2020";
+export const RESUME_DATE = "6-30-2021";
 
 export const PROJECTS = [
   {
